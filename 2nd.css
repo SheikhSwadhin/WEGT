@@ -1,0 +1,102 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Black background for the body */
+    color: #fff; /* Text color white */
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-image: url('(4).jpeg'); /* Replace 'wood_texture.jpg' with the path to your wood texture image */
+    background-size: cover;
+    padding: 20px;
+}
+
+.product {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background for products */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+    text-align: center; /* Align product content center */
+}
+
+.product img {
+    display: block; /* Ensure images display as blocks */
+    margin: 0 auto; /* Center-align images */
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.product h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 10px;
+    color: #fff; /* Text color white */
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+.button-container {
+    margin-top: 30px; /* Adjust the value as needed to create space above the button container */
+}
+
+.button {
+    margin-top: 20px; /* Adjust the value as needed to create space above the button */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
